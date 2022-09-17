@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(../img/wallpaper1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho {
+    background-color: black;
+    max-height: 30px;
+}
+
+.infos {
+    padding: 8px;
+    font-size: 13px;
+    margin: 0 10px 0 10px;
+}
+
+.infos ul {
+    color: white;
+}
+
+.infos ul li {
+    list-style: none;
+    padding-bottom: 6px;
+}
+
+.infos ul li.hover:hover {
+    border-bottom: 2.8px solid orangered; 
+    cursor: default;
+}
+
+.infos ul li i {
+    color: white;
+}
+
+.infos ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+}
+
+.icons ul li {
+    margin-left: 10px;
+}
+
+.icons:hover {
+    border-bottom: 2.8px solid orangered; 
+}

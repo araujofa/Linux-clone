@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/628d09cbaa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <script src="./js/index.js"></script>
+    <title>Portfolio Fabio Araujo</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+
+        <div class="infos">
+
+            <ul>
+                <li class="hover">Activities</li>
+                <li class="hover">
+                    <script>
+                        var dataAtual = new Date();
+                        var dia = dataAtual.getDate();
+                        var mes = (dataAtual.getMonth() + 1);
+                        var ano = dataAtual.getFullYear();
+                        var horas = dataAtual.getHours();
+                        var minutos = dataAtual.getMinutes();
+  
+                        document.write(dia + "/0" + mes + "/" + ano + "   " + horas + ":" + minutos);
+                    </script>
+                </li>
+                <div class="icons">
+                    <li><i class="fa-solid fa-wifi"></i></li>
+                    <li><i class="fa-solid fa-volume-xmark"></i></li>
+                    <li><i class="fa-solid fa-battery-half"></i></li>
+                    <li><i class="fa-solid fa-caret-down"></i></li>
+                </div>
+            </ul>
+            
+
+        </div>
+
+    </header>
+    
+</body>
+</html>
