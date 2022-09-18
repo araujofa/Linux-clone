@@ -58,3 +58,8 @@ body {
 .icons:hover {
     border-bottom: 2.8px solid orangered; 
 }
+
+.barra-lateral {
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 10px;
+}
