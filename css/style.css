@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-image: url(../img/wallpaper1.jpg);
+    background-image: url(../img/jammy-jellyfish-wallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -17,8 +17,9 @@ body {
 
 .infos {
     padding: 8px;
-    font-size: 13px;
+    font-size: .90em;
     margin: 0 10px 0 10px;
+    font-weight: bolder;
 }
 
 .infos ul {
@@ -60,6 +61,20 @@ body {
 }
 
 .barra-lateral {
-    background-color: rgba(0, 0, 0, 0.377);
-    padding: 10px;
+    width: 50px;
+    height: 58em;
+    background-color: rgba(0, 0, 0, 0.300);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.itens-barra-lateral p {
+    color: white;
+}
+
+.itens-barra-lateral {
+    padding: 5px;
+    text-align: center;
 }
