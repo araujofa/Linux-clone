@@ -3,11 +3,20 @@
     padding: 0;
 }
 
+html {
+    height: 100%;
+    display: block;
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
     background-image: url(../img/jammy-jellyfish-wallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+main {
+    width: 100%;
 }
 
 .cabecalho {
@@ -62,7 +71,7 @@ body {
 
 .barra-lateral {
     width: 50px;
-    height: 620px;
+    height: 95.5vh;
     background-color: rgba(0, 0, 0, 0.300);
     padding: 5px;
     display: flex;
@@ -92,7 +101,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 320px;
+    height: 40vh;
     margin-top: 20px;
 }
 
@@ -100,4 +109,44 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+#load {
+    position: fixed;
+    display: block;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ }
+
+ .icons-desktop {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     padding: 10px;
+ }
+
+ .atalhos {
+     text-align: center;
+     margin-top: 20px;
+     height: 7vh;
+     padding: 10px 3px 10px 3px;
+     border-radius: 10%;
+ }
+ 
+ .atalhos p {
+     margin-top: 6px;
+     color: white;
+ }
+
+ .atalhos:hover {
+     background-color: rgba(255, 255, 255, 0.2);
+     cursor: default;
+ }
+
+main {
+    display: flex;
+    justify-content: space-between;
 }
