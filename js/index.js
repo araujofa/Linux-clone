@@ -13,19 +13,14 @@ function menu(){
 
 function alterarCor(){
     var a = document.getElementById('cor-g');  
-    a.style.backgroundColor = 'orange';
-    
-
-    a.addEventListener('mouseout', sair);
-    function sair(){
-        a.style.background = 'none'; 
-    }
-
-    a.addEventListener('mouseenter', entrar);
-    function entrar(){
-        a.style.background = 'rgba(255, 255, 255, 0.2)'; 
-    }
+    a.style.backgroundColor = 'rgba(255, 88, 27, 0.493)';
 }
+
+function mouseEnter() {
+    var a = document.getElementById('cor-g');
+    a.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+}
+
 
 function alterarCorTrash(){
     var b = document.getElementById('cor-t');
