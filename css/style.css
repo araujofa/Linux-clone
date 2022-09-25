@@ -136,7 +136,7 @@ main {
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
-     padding: 10px;
+     padding: 2px;
 }
 
 .atalhos {
@@ -161,4 +161,5 @@ main {
 .teste {
     display:flex;
     flex-direction:column;
+    
 }

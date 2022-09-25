@@ -14,11 +14,14 @@ function menu(){
 function alterarCor(){
     var a = document.getElementById('cor-g');  
     a.style.backgroundColor = 'rgba(255, 88, 27, 0.493)';
+    a.style.border = '0.2px solid rgba(255, 255, 255, 0.432)';
+
 }
 
 function mouseEnter() {
     var a = document.getElementById('cor-g');
     a.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+    a.style.border = 'none';
 }
 
 
@@ -26,13 +29,7 @@ function alterarCorTrash(){
     var b = document.getElementById('cor-t');
     b.style.backgroundColor = 'orange';
 
-    b.addEventListener('mouseout', sair);
-    function sair(){
-        b.style.background = 'none'; 
-    }
-
-    b.addEventListener('mouseenter', entrar);
-    function entrar(){
-        b.style.background = 'rgba(255, 255, 255, 0.2)'; 
-    }
+    var ab = document.getElementById('cor-g');
+    ab.style.background = 'none';
+    ab.style.border ='none';
 }
