@@ -144,6 +144,10 @@ main {
     border-radius: 5%;
     padding: 15px 10px 15px 10px;
  }
+
+ .atalhos:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+ }
  
  .atalhos p {
      margin-top: 6px;
@@ -151,6 +155,10 @@ main {
      font-size: 11px;
      font-weight: bold;
  }
+
+.atalhos p:hover {
+    cursor: default;
+}
 
 
 main {
@@ -161,5 +169,13 @@ main {
 .teste {
     display:flex;
     flex-direction:column;
-    
+    position: relative;
+}
+
+.toggle-menu {
+    width: 30%;
+}
+
+#invisivel {
+    width: 80%;
 }
