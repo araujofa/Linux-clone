@@ -91,7 +91,7 @@ main {
 
 .barra-lateral {
     width: 50px;
-    height: 94vh;
+    height: 95.9vh;
     background-color: rgba(0, 0, 0, 0.300);
     padding: 5px;
     display: flex;
@@ -173,10 +173,11 @@ main {
 }
 
 .toggle-menu {
-    display: hidden;
+    display: none;
     width: 30%;
 }
 
 #invisivel {
     width: 80%;
 }
+

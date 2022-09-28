@@ -8,7 +8,8 @@ var minutos = dataAtual.getMinutes();
 document.getElementById('date').innerHTML = (dia + "/0" + mes + "/" + ano + "   " + horas + ":" + minutos);
 
 function menu(){
-    window.alert("aqui vai ser um toggle menu");
+    var a = document.getElementById('toggle-menu');
+    a.style.display = 'block';
 }
 
 function alterarCor(){
